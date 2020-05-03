@@ -110,3 +110,25 @@ ul.top_menu {
 #soushin:hover{
   opacity:0.5;
 }
+
+.footer{
+  width: 82%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  background-color: #4D4D4D;
+  display: table;
+}
+.footer p {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+　
